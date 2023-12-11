@@ -1,0 +1,44 @@
+/* Add this CSS to your stylesheet */
+
+
+.custom-dropdown .nav-link {
+    color: white !important;
+  }
+  .custom-dropdown.active .nav-link {
+    background-color: #004225; /* Change this to your desired background color */
+    color: white; /* Change this to your desired text color */
+    border-radius: 5px;
+  }
+  .custom-dropdown.active1{
+    background-color: #004225; /* Change this to your desired background color */
+    color: white; /* Change this to your desired text color */
+    border-radius: 5px;
+  }
+  
+  
+   .custom-dropdown .nav-link:focus, .custom-dropdown .nav-link:hover {
+     background-color: #004225; /* Change this to your desired background color */
+     color: white; /* Change this to your desired text color */
+     border-radius: 5px;
+  } 
+
+
+  .custom-dropdown .dropdown-item {
+    color: #333; /* Text color */
+    background-color: #fff; /* Background color */
+    padding: 10px; /* Adjust padding as needed */
+  }
+  
+  /* Style for the dropdown list items on hover or focus */
+  .custom-dropdown .dropdown-item:hover,
+  .custom-dropdown .dropdown-item:focus {
+    background-color: #198754; /* Background color on hover or focus */
+    color: #fff; /* Text color on hover or focus */
+  }
+  
+
+  .active{
+    border-radius: 5px;
+    background-color:#004225;
+  
+  }

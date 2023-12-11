@@ -1,0 +1,22 @@
+.image-slider {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px; 
+    margin: 0 auto;
+    position: relative;
+    justify-content: center;
+  }
+  
+  .slide {
+    width: 100%;
+    opacity: 0;
+    transition: opacity 1s ease;
+    justify-content: center;
+  }
+  
+  .slide.active {
+    opacity: 1;
+    justify-content: center;
+  }
+  
